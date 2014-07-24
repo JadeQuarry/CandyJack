@@ -246,6 +246,8 @@ public class TypewriterEffect : MonoBehaviour
 			EventDelegate.Execute(onFinished);
 			current = null;
 			mActive = false;
+			Time.timeScale = 0;
+			Debug.Log("Finish Task Texts ");
 		}
 	}
 }
