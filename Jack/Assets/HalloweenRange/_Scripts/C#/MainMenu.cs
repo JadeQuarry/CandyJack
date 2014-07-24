@@ -215,7 +215,8 @@ public class MainMenu : MonoBehaviour
 						if(GUI.Button (new Rect (24+ l*125 ,30+i*40,115,40), "Level " + ((i+1) + l*4).ToString())) 
 						{
 							PlayerPrefs.Save();
-							Application.LoadLevel ( ((l*4)+(i+1)).ToString() );
+							Application.LoadLevel ("Level 1");
+						//	Application.LoadLevel ( ((l*4)+(i+1)).ToString() );
 						}
 					}else
 					{

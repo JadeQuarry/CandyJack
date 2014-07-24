@@ -1,0 +1,76 @@
+{"frames": {
+
+"Crate01b.tga":
+{
+	"frame": {"x":516,"y":2,"w":512,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":512},
+	"sourceSize": {"w":512,"h":512}
+},
+"Wall01_n.tga":
+{
+	"frame": {"x":2,"y":2,"w":512,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":512},
+	"sourceSize": {"w":512,"h":512}
+},
+"ball_ammo 1.png":
+{
+	"frame": {"x":70,"y":580,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30}
+},
+"gun.png":
+{
+	"frame": {"x":2,"y":516,"w":66,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":66,"h":99},
+	"sourceSize": {"w":100,"h":99}
+},
+"gun_ammo.png":
+{
+	"frame": {"x":70,"y":548,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30}
+},
+"handgun.png":
+{
+	"frame": {"x":2,"y":617,"w":90,"h":68},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":19,"w":90,"h":68},
+	"sourceSize": {"w":100,"h":100}
+},
+"handgun_ammo.png":
+{
+	"frame": {"x":70,"y":516,"w":30,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":30},
+	"sourceSize": {"w":30,"h":30}
+},
+"money.png":
+{
+	"frame": {"x":2,"y":709,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":26,"h":30},
+	"sourceSize": {"w":30,"h":30}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "state.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7d21fec96bb8f2e6314b96dd57ce08ff$"
+}
+}

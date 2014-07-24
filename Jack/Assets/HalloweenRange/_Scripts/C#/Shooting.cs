@@ -31,10 +31,14 @@ public class Shooting : MonoBehaviour
 	private float nextFire = 0.0f;
 	private QuestScript questScript;
 	private static RaycastHit hitInfo;
+	void Awake()
+	{
+		questScript = GameObject.Find("Quest").GetComponent<QuestScript>(); 
+	}
 	//=======================================================================================================
 	void Start () 
 	{	
-		questScript = GameObject.Find("Quest").GetComponent<QuestScript>(); 
+
 		
 		Screen.lockCursor = true;
 		Screen.showCursor = false;
